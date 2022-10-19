@@ -1,8 +1,23 @@
 package Interfaz;
 
-public abstract class Animal implements AccionesBasicas{
+public class Animal implements AccionesBasicas{
 
     String especie;
+
+    @Override
+    public void comer() {
+        System.out.println("comiendo");
+    }
+
+    @Override
+    public void moverse() {
+        System.out.println("correr");
+    }
+
+    @Override
+    public void emitirSonido() {
+        System.out.println("Miauu");
+    }
 
     @Override
     public void dormir() {

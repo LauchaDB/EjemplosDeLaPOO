@@ -8,7 +8,7 @@ public class Persona implements AccionesBasicas{
 
     @Override
     public void comer() {
-        System.out.println("como diversas comidas pero la pizza es mi favorita");
+        System.out.println("comiendo pizza");
     }
 
     @Override
@@ -23,6 +23,6 @@ public class Persona implements AccionesBasicas{
 
     @Override
     public void dormir() {
-        System.out.println("Zzzzzz....");
+        System.out.println("Zzzzzz...., duermiendo en mi cama");
     }
 }
