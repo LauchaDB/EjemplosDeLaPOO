@@ -11,10 +11,6 @@ public class Proveedor {
     public Proveedor() {
     }
 
-    public void hacerPedido(ArrayList productos){
-        System.out.println("logica para hacer el pedido");
-    }
-
     public void achicarDeuda(float valor){
         if(valor>0 && valor<=deuda){
             deuda -= valor;
