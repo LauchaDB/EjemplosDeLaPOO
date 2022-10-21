@@ -1,6 +1,6 @@
 package HerenciaMultiple;
 
-public interface Omnivoro extends Herbivoro, Carnivoro, Animal {
+public interface Omnivoro extends Herbivoro, Carnivoro {
 
     default void comerDeTodo(){
         comerFruto();
